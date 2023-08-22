@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+</head>
+<body bgcolor="#3282F6">
+    <form action="">
+
+        <div>
+            <div>
+                <p>Aprendendo Input Radio ?</p>        
+                    
+                <input type="radio" id="texto sim" name="Aprendendo">
+                <label for="texto sim">Sim</label>
+                    
+                <input type="radio" id="texto nao" name="Aprendendo">
+                <label for="texto nao">Não</label>
+                
+                
+                <input type="radio" id="texto talvez" name="Aprendendo">
+                <label for="texto talvez">Talvez</label>
+                
+                
+                <input type="radio" id="texto que" name="Aprendendo">
+                <label for="texto que">Que isso ?</label>
+
+            </div>
+            
+            <div>
+                <p>E texto ?</p>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu Nome..." required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite seu Email..." required>
+
+            </div>
+            <ul></ul>
+            <div>
+
+                <label for="lista">Qual o nivel ta então ?</label>
+                <select name="nivel" id="lista">
+                
+                    <option selected disabled>Selecione um nivel...</option>
+                    <optgroup label="Basico">
+                        <option value="um">Basico um</option>
+                        <option value="um">Basico dois</option>
+                        <option value="um">Basico tres</option>
+                    </optgroup>
+
+                    <optgroup label="Avançado">
+                        <option value="um">Avançado um</option>
+                        <option value="dois">Avançado dois</option>
+                    </optgroup>
+                    
+                    
+                    <optgroup label="Indisponivel">
+                        <option value="Mestre" disabled>Mestre</option>
+                    </optgroup>
+
+                </select>
+
+            </div>
+            <button onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley');">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

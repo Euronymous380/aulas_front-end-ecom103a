@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <!-- Formulario basico -->
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome..." required>
+        </div>
+        
+        <!-- input radio -->
+        <div>
+            <p>Você está vendo a aula?</p>
+
+            <div>
+                <input type="radio" id="sim" name="assistindo">
+                <label for="sim">Sim</label>
+            </div>
+            <div>
+                <input type="radio" id="nao" name="assistindo">
+                <label for="nao">Não</label>
+            </div>
+            <div>
+                <input type="radio" id="talvez" name="assistindo">
+                <label for="talvez">Talvez</label>
+            </div>
+        </div>
+
+        
+        <div>
+            <!-- option simples -->
+            <!-- <label for="curso">Selecione seu Curso</label>
+            <select name="curso" id="curso">
+
+                <option selected disabled>Selecione...</option>
+                <option value="engenharia">Enenharia da Computação</option >
+                <option value="ciencia">Ciência da Computação</option >
+                <option value="analize">Análise e Desemvolvimento de Sistema</option >
+
+            </select> -->
+
+            <label for="curso2">Selecione seu Curso</label>
+            <select name="curso2" id="curso2">
+
+                <option selected disabled>Selecione...</option>
+                <optgroup label="Tecnologia">
+                    <option value="engenharia">Enenharia da Computação</option >
+                    <option value="ciencia">Ciência da Computação</option >
+                    <option value="analize">Análise e Desemvolvimento de Sistema</option >
+                </optgroup>
+
+                <optgroup label="Humanas">
+                    <option value="filosofia">Filosofia</option >
+                    <option value="historia">Historia</option >
+                    <option value="linguas">Linguagens Humanas</option >
+                </optgroup>
+
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

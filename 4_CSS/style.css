@@ -1,0 +1,46 @@
+h3{
+    font-size: 16px;
+    color: magenta;
+}
+
+p{
+
+    color: chartreuse;
+}
+
+/* 5 - Classes ....................*/
+.paragrafo {
+    background-color: darkgoldenrod;
+    font-size: 16px;
+    color: black;
+}
+
+/* 6 - ID #########################*/
+#titulo-exclusivo{
+    background-color: black;
+    color: aqua;
+}
+
+/* 7 - especificidade no CSS */
+#algum-titulo{
+    background-color: burlywood;
+    color: blue;
+}
+
+.titulo{
+    background-color: blueviolet !important;
+    color: azure;
+
+}
+
+h2{
+    background-color: chocolate;
+    color: aquamarine;
+}
+
+/* 8 - hexadecimal */
+/* #RRGGBB */
+.hexadicemal{
+    background-color: #12ED44;
+    counter-reset: #ffffff;
+}

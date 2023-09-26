@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    /* deixa a font um pouco menos pixelada */
+    -webkit-font-smoothing: antialiased; 
+
+}
+
+:root {
+    /* variaveis contendo uma cor */
+    --main-bg: #19A1AE;
+    --card-bg: #fff
+}
+
+body {
+    background: var(--main-bg);
+
+    height: 100vh;
+    /* vh = viewport height */
+
+    display: flex;
+    justify-content: center ;   
+    align-items: center;
+    /* vinculado ao display:flex; */
+}
+
+main {
+    width: 100%;
+    max-width: 21.875rem;
+}
+
+section {
+    background: var(--card-bg);
+    /* max-width: 21.875rem; posso retirar por o main (conteiner superios ja conter essa filtro */
+    border-radius: 0.9375rem;
+}
+
+.fundo-oval img {
+    border-radius:  0.9375rem 0.9375rem 0 0;
+    display: block;
+}

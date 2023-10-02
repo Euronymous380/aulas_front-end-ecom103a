@@ -11,7 +11,10 @@
 :root {
     /* variaveis contendo uma cor */
     --main-bg: #19A1AE;
-    --card-bg: #fff
+    --card-bg: #fff;
+    --title:#2E3349;
+    --text: #6b7082;
+    --border:#ebe9ec;
 }
 
 body {
@@ -40,4 +43,59 @@ section {
 .fundo-oval img {
     border-radius:  0.9375rem 0.9375rem 0 0;
     display: block;
+    width: 100%;
+}
+
+.info_top {
+    text-align: center;
+}
+
+.info_top img {
+    margin-top: -3.3125rem;
+    margin-bottom: 1.5rem;
+    border: 5px solid var(--card-bg);
+    border-radius: 50%;
+}
+
+.info_top h1 {
+    font-size: 1.125rem;
+    color: var(--title);
+    margin-bottom: 0.8rem;
+}
+
+.info_top h1 span {
+    color: var(--text);
+    font-weight: 400;
+}
+
+.info_top p {
+    color: var(--text);
+    font-size: 0.875rem;
+    margin-bottom: 1.75rem;
+}
+
+hr {
+    border: 1px solid var(--border);
+}
+
+.info_botton {
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 1.5rem;
+}
+
+.info_botton div {
+    text-align: center;
+}
+
+.info_botton div strong {
+    font-size: 1.125rem;
+    color: var(--title);
+}
+
+.info_botton div p {
+    margin-top: 0.5rem;
+    font-size: 0.625rem;
+    columns: var(--text);
+    letter-spacing: 0.09375rem;
 }

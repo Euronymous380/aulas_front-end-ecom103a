@@ -13,4 +13,5 @@ div {
     padding: 10px; /* Preenchimento a gosto */
     text-align: center; /* Alinhamento do texto ao centro */
     background-color: #f0f0f0; /* Cor de fundo a gosto */
+    display: flex;
 }

@@ -1,0 +1,16 @@
+/* Estilizando a section */
+section {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza a section na página */
+}
+
+/* Estilizando as divs */
+div {
+    border: 2px solid black;
+    width: 200px; /* Largura a gosto */
+    height: 150px; /* Altura a gosto */
+    margin: 20px; /* Margem a gosto */
+    padding: 10px; /* Preenchimento a gosto */
+    text-align: center; /* Alinhamento do texto ao centro */
+    background-color: #f0f0f0; /* Cor de fundo a gosto */
+}
